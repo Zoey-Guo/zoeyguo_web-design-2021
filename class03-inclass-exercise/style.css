@@ -1,0 +1,39 @@
+body {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    align-items: center;
+    background-color: black;
+    color: blue;
+    font-size: 32px;
+}
+
+.card {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid white;
+
+}
+
+.card {
+  transform: skew(-15deg, 23deg)
+   translateY(300px);
+
+
+   animation: test 10s ease-in 0s infinite;
+}
+
+@keyframes test {
+  0% {
+    transform: translateY(300px) skew(0deg, 0deg)
+
+  }
+
+
+  100% {
+    transform: translateY(300px) skew(-180deg, 180deg)
+
+  }
+}
