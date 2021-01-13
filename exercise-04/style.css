@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100vw;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 38px;
+
+}
+.on-this-day {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.content {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+
+}
+
+.author {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
+.author2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+
+}
+
+.hero {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero-text, .hero-image {
+    width: 50%;
+    height: 100%;
+
+
+}
+
+.hero-text {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+}
+
+
+.hero-image {
+    background: url(img/cover.jpg)
+    no-repeat center center;
+    background-size: cover;
+
+}
+
+.articles {
+  display: flex;
+  margin: 15px auto 0 auto;
+}
+
+.catalog {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: red;
+}
+
+.article-text {
+  margin-top: 15px;
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+
+}
+
+.date {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: grey;
+
+}
+
+
+
+.item-1 {
+  flex: 1;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+
+.item-2 {
+  flex: 1;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero-text, .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 414px) {
+  .articles {
+    display: block;
+  }
+
+  .item-1, .item-2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+  }
+
+}
