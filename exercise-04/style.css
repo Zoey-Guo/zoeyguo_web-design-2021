@@ -131,7 +131,7 @@ h1{
 
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 506px) {
   .articles {
     display: block;
   }
