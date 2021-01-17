@@ -13,19 +13,28 @@ body {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: black;
     border: 1px solid white;
 
 }
 
 .card {
-  transform: skew(-15deg, 23deg)
+   transform: skew(0deg, 0deg)
    translateY(300px);
+   /* animation: fall 10s ease-in 2s infinite; */
 
-
-   animation: test 10s ease-in 0s infinite;
+   animation-name: fall;
+   animation-duration: 10s;
+   animation-timing-function: ease-in-out;
+   animation-delay: 2s;
+   animation-direction: 1;
 }
 
-@keyframes test {
+.card:hover {
+  color: white;
+}
+
+@keyframes fall {
   0% {
     transform: translateY(300px) skew(0deg, 0deg)
 
