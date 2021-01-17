@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+/* the biggest container */
+section {
+  box-sizing: border-box;
+  margin: 0;
+  width: 150%;
+  height:100vh;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+  }
+/* image holder */
+  #bgimg {
+    overflow: hidden;
+    margin-left: 7%;
+    width: 100vw;
+
+  }
+
+/* flying paper holder */
+#text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left:0;
+  padding-right: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+/* give all text boxes a style */
+p {
+    display: block;
+    height: auto;
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* make varitions to flying boxes like speed and position */
+.ticker1 {
+  position: relative;
+  top:10px;
+  animation: animate 7s linear infinite;
+  margin-right: 2%;
+}
+
+.ticker2 {
+  position: relative;
+  left:10px;
+  animation: animate 10s linear infinite;
+  margin-right: 5%;
+}
+
+.ticker3 {
+  position: relative;
+  left:100px;
+  bottom: 35px;
+  animation: animate 13s linear infinite;
+  margin-right: 5%;
+}
+
+/* I cannot control where tickers start and where it end. Ideally, I want to make it looping, always show up from the very right and disppear at the very left of the screen and show up at the left again. Now it is twitching!!!! not a smooth loop */
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+  /*At first, I want to hover it, it reverse and become bigger, but after giving it the font-size, its position goes crazy!! flying to nowhere*/
+p:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    animation-play-state:paused;
+}
+
+.cookie {
+  position: fixed;
+  bottom: 5%;
+  left: 5%;
+  transform: rotate(360deg);
+  transform-origin: center;
+  -webkit-animation: cookie 5s linear infinite;
+  animation: cookie 5s linear infinite;
+
+}
+
+@keyframes cookie {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+}
+
+
+.cookie2 {
+  position: fixed;
+  top: -10%;
+  right: 10%;
+  transform: rotate(360deg);
+  transform-origin: center;
+  -webkit-animation: cookie 5s linear infinite;
+  animation: cookie 5s linear infinite;
+  animation-delay: 2.5s;
+
+}
+
+@keyframes cookie {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+}

@@ -36,10 +36,12 @@ section {
   right: 0;
   padding-left: 30%;
 
+
 }
 
 #bgimg {
   overflow: hidden;
+  margin-left: 7%;
 
 }
 
@@ -47,8 +49,8 @@ section {
   display: inline-block;
   white-space: nowrap;
   padding-right: 2%;
-  margin: 40px 50px 40px 100px;
-  animation: animate 5s linear infinite;
+  animation: animate 8s linear infinite;
+  margin-right: 5%;
 }
 
 @keyframes animate {
@@ -70,15 +72,11 @@ section {
 
 
 p:hover {
-    height: auto;
-    font-size: 55px;
+    /*font-size: 55px;*/
     color: white;
     background-color: black;
     border: 1px solid white;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
 
-}
-
-.ticker:hover {
-  -webkit-animation-duration: 30s;
-  animation-duration: 30s;
 }
