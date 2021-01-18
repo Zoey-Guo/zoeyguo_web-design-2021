@@ -53,36 +53,38 @@ p {
 .ticker1 {
   position: relative;
   top:10px;
-  animation: animate 7s linear infinite;
+  animation: animate 15s linear infinite;
   margin-right: 2%;
 }
 
 .ticker2 {
   position: relative;
-  left:10px;
-  animation: animate 10s linear infinite;
+  left:200px;
+  animation: animate 15s linear infinite;
   margin-right: 5%;
+
 }
 
 .ticker3 {
   position: relative;
   left:100px;
   bottom: 35px;
-  animation: animate 13s linear infinite;
+  animation: animate 18s linear infinite;
   margin-right: 5%;
+
 }
 
 /* I cannot control where tickers start and where it end. Ideally, I want to make it looping, always show up from the very right and disppear at the very left of the screen and show up at the left again. Now it is twitching!!!! not a smooth loop */
 
 @keyframes animate {
   0% {
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+    -webkit-transform: translateX(300%);
+    transform: translateX(300%);
 
   }
   100% {
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -webkit-transform: translateX(-300%);
+    transform: translateX(-300%);
   }
 }
 
