@@ -59,17 +59,17 @@ p {
 
 .ticker2 {
   position: relative;
-  left:200px;
-  animation: animate 15s linear infinite;
+  left:50px;
+  animation: animate 19s linear infinite;
   margin-right: 5%;
 
 }
 
 .ticker3 {
   position: relative;
-  left:100px;
+  left:80px;
   bottom: 35px;
-  animation: animate 18s linear infinite;
+  animation: animate 21s linear infinite;
   margin-right: 5%;
 
 }
@@ -78,13 +78,13 @@ p {
 
 @keyframes animate {
   0% {
-    -webkit-transform: translateX(300%);
-    transform: translateX(300%);
+    -webkit-transform: translateX(450%);
+    transform: translateX(450%);
 
   }
   100% {
-    -webkit-transform: translateX(-300%);
-    transform: translateX(-300%);
+    -webkit-transform: translateX(-350%);
+    transform: translateX(-350%);
   }
 }
 
