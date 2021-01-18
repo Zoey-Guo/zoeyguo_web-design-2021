@@ -38,8 +38,9 @@ section {
 /* image holder */
   #bgimg {
     overflow: hidden;
-    margin-left: 4%;
+    margin-left: 3%;
     width: 100vw;
+
 
   }
 
@@ -79,13 +80,13 @@ p {
   position: relative;
   top:10px;
   left:100px;
-  animation: animate 12s linear infinite;
+  animation: animate 24s linear infinite;
   margin-right: 2%;
 }
 
 .ticker2 {
   position: relative;
-  right:50px;
+  left: 20px;
   animation: animate 15s linear infinite;
   margin-right: 5%;
 
@@ -104,7 +105,7 @@ p {
 .ticker4 {
   position: relative;
   top: 15px;
-  animation: animate 20s linear infinite;
+  animation: animate 18s linear infinite;
   margin-right: 5%;
 
 }
@@ -113,13 +114,13 @@ p {
 
 @keyframes animate {
   0% {
-    -webkit-transform: translateX(450%);
-    transform: translateX(450%);
+    -webkit-transform: translateX(650%);
+    transform: translateX(650%);
 
   }
   100% {
-    -webkit-transform: translateX(-350%);
-    transform: translateX(-350%);
+    -webkit-transform: translateX(-550%);
+    transform: translateX(-550%);
   }
 }
 
@@ -188,4 +189,110 @@ p:hover {
 
 .cookie:hover {
   animation-play-state:paused;
+}
+
+/*ipad size*/
+@media screen and (max-width: 768px) {
+  p {
+    margin-bottom: -35px;
+    font-size: 18px;
+  }
+  .ticker1 {
+    position: relative;
+    top:20px;
+    left:200px;
+    animation: animate 24s linear infinite;
+
+  }
+
+  .ticker2 {
+    position: relative;
+    right: 300px;
+    animation: animate 20s linear infinite;
+
+
+  }
+
+  .ticker3 {
+    position: relative;
+    bottom: 36px;
+    animation: animate 16s linear infinite;
+
+  }
+
+  .ticker4 {
+    position: relative;
+    top: 15px;
+    animation: animate 18s linear infinite;
+
+  }
+
+
+
+
+
+}
+
+/*iphone size*/
+@media screen and (max-width: 506px) {
+  .navybar-container {
+    font-size: 1rem;
+      }
+  #bgimg {
+    width: 100vw;
+  }
+
+  p {
+    font-size: 13px;
+    margin-bottom: 40px;
+  }
+
+  p:hover {
+    animation-play-state: running;
+
+  }
+  .ticker1 {
+    position: relative;
+    top:40px;
+    left:200px;
+    animation: animate 16s linear infinite;
+
+  }
+
+  .ticker2 {
+    position: relative;
+    top: 32px;
+    left:300px;
+    animation: animate 18s linear infinite;
+
+
+  }
+
+  .ticker3 {
+    position: relative;
+    left:250px;
+    bottom: 15px;
+    animation: animate 14s linear infinite;
+
+  }
+
+  .ticker4 {
+    position: relative;
+    left:150px;
+
+    animation: animate 15s linear infinite;
+
+  }
+  @keyframes animate {
+    0% {
+      -webkit-transform: translateX(150%);
+      transform: translateX(150%);
+
+    }
+    100% {
+      -webkit-transform: translateX(-250%);
+      transform: translateX(-250%);
+    }
+  }
+
 }
