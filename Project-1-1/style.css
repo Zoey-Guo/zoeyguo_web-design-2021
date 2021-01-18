@@ -105,6 +105,7 @@ p:hover {
   -webkit-animation: cookie 5s linear infinite;
   animation: cookie 5s linear infinite;
 
+
 }
 
 @keyframes cookie {
@@ -144,4 +145,12 @@ p:hover {
     transform: rotate(360deg);
   }
 
+}
+
+.cookie2:hover {
+  animation-play-state:paused;
+}
+
+.cookie:hover {
+  animation-play-state:paused;
 }
