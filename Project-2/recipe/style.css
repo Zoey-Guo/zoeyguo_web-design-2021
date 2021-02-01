@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+p {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 24px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+.big-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.container-verticle {
+  display: flex;
+  width: 100vw;
+  height: 25vh;
+  border-bottom: 1px solid white;
+
+}
+
+.name {
+  flex: 1;
+  border-right: 1px solid white;
+
+}

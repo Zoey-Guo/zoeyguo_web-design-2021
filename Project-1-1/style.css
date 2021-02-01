@@ -43,6 +43,25 @@ section {
 
 
   }
+#start {
+  margin-top: 15px;
+  font-size: 150px;
+  text-align: center;
+  margin-bottom: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left:0;
+  padding-right: 0;
+  border: 0;
+
+
+}
+
+h1 {
+    cursor: pointer;
+}
+
 
 /* flying paper holder */
 #text {
@@ -55,8 +74,8 @@ section {
   padding-right: 0;
   overflow-y: auto;
   overflow-x: hidden;
-
   height: 100vh;
+  display: none;
 }
 
 

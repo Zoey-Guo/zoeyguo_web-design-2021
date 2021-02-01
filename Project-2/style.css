@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+
+}
+
+/* At first, I give 'p' font-size:22px and try to change the marquee a larger font size in its individual div, but it's not working. It's just keep the same size of 22px. SO I have to break it into every id. I guess, probably, becasue there are too many parent divs.*/
+
+p {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Darker Grotesque', sans-serif;
+  /*font-family: 'Jost', sans-serif;*/
+
+
+
+}
+#big-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+#container-1 {
+  flex:2;
+  display: flex;
+  height: 20vh;
+  border: 0;
+  font-size: 22px;
+}
+
+#container-2 {
+  flex:5;
+  display: flex;
+  height: 70vh;
+  border: 0;
+  font-size: 22px;
+}
+
+#container-3 {
+  flex:1;
+  display: flex;
+  height: 10vh;
+  border: 0;
+}
+
+.item-1-1 {
+  flex:1;
+  border: 0;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+
+}
+
+.item-1-2 {
+  flex:6;
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+
+}
+
+.item-1-2-1 {
+  height: 50%;
+  display: flex;
+  border: 0;
+  border-bottom: 1px solid white;
+  font-size: 40px;
+
+}
+
+.item-1-2-1-1 {
+  flex:3;
+  border: 0;
+  border-right:1px solid white;
+
+}
+
+.item-1-2-1-2 {
+  flex:1;
+  border: 0;
+  border-right:1px solid white;
+}
+
+.item-2-1 {
+  flex:1;
+  border: 0;
+  border-right:1px solid white;
+}
+
+.item-2-2 {
+  flex:3;
+  border: 0;
+}
+
+.item-3-2 {
+  flex:1;
+  border: 0;
+  border-right:1px solid white;
+  border-top:1px solid white;
+
+}
+
+.item-3-1 {
+  flex:4;
+}
+
+#intro {
+  font-size: 24px;
+  line-height: 30px;
+
+}
+
+#cookvideo {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+#cupcake {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+
+#recipe {
+  font-size: 24px;
+  line-height: 30px;
+
+}
+
+#foodimg {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+#human {
+  border: 0;
+  font-size: 24px;
+  line-height: 30px;
+
+
+}
+
+#cookbook {
+  border: 0;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+#imgdata {
+  font-size: 24px;
+  line-height: 30px;
+  border: 0;
+  border-top:1px solid white;
+
+
+}
+
+#textdata {
+  font-size: 24px;
+  line-height: 30px;
+  border: 0;
+  border-top:1px solid white;
+  border-left:1px solid white;
+
+}
+
+#gif {
+  border-right:1px solid white;
+  overflow: hidden;
+
+}
+
+#marqueeTop {
+  font-size: 60px;
+
+
+}
+
+#marqueeBottom {
+  border: 0;
+  border-right:1px solid white;
+  border-top:1px solid white;
+  font-size: 60px;
+
+
+}
+
+/*.nothing {
+  background-image: url(x.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+    background-position: center center;
+
+
+}*/
