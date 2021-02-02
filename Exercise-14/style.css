@@ -29,26 +29,28 @@ p {
 .toggle-1 {
     background-color: Crimson;
     color: white;
-    display: flex;
+    height: 10%;
+
+
 
 }
 
 .toggle-2 {
     background-color: Tomato;
     color: white;
-    display: flex;
+
 }
 
 .toggle-3 {
     background-color: Magenta;
     color: black;
-    display: flex;
+
 }
 
 .toggle-4 {
     background-color: Lime;
     color: black;
-    display: flex;
+
 }
 
 .class1 {

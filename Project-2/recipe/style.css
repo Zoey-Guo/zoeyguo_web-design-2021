@@ -13,16 +13,18 @@ p {
 }
 .big-container {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   background-color: black;
   border: 1px solid white;
 }
 
 .container-verticle {
+  flex: 1;
   display: flex;
   width: 100vw;
-  height: 25vh;
   border-bottom: 1px solid white;
+  transition: all 0.5s ease-in-out;
 
 }
 
@@ -30,4 +32,12 @@ p {
   flex: 1;
   border-right: 1px solid white;
 
+}
+
+.row-afterhover {
+  height:60vh;
+}
+
+.colum-afterhover {
+  flex:3;
 }
