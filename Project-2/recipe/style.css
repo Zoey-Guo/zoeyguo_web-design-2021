@@ -4,19 +4,55 @@
     padding: 0;
 
 }
-p {
+
+body {
+  background-color: black;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+h1 {
   color: white;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 22px;
+  margin-top: 10px;
   font-family: 'Darker Grotesque', sans-serif;
+
 }
+
+h2 {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 40px;
+  line-height: 36px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p {
+
+}
+ul {
+  list-style-position: inside;
+}
+
+
+
 .big-container {
   display: flex;
   height: 100vh;
   flex-direction: column;
-  background-color: black;
+  /* background-color: black; */
   border: 1px solid white;
+  overflow: hidden;
 }
 
 .container-verticle {
@@ -24,20 +60,159 @@ p {
   display: flex;
   width: 100vw;
   border-bottom: 1px solid white;
-  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  /*transition: all 0.5s ease-in-out;*/
 
 }
 
 .name {
   flex: 1;
   border-right: 1px solid white;
-
+  overflow: hidden;
+  /*position: relative;*/
 }
+
+.name:hover {
+  overflow-y: scroll;
+}
+
 
 .row-afterhover {
-  height:60vh;
+  flex:6;
+  transition: all 0.3s ease-in-out;
+
 }
 
+
+
 .colum-afterhover {
-  flex:3;
+  flex:3.5;
+  position: relative;
+  /* smooth column hover*/
+  transition: all 0.3s ease-in-out;
+}
+
+/* backgroud img*/
+
+.bg-img {
+  background-size: cover;
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  display: none;
+}
+.img-1 {
+  background: url(img1.jpg)
+  no-repeat center center;
+  /*background-repeat: repeat-y;*/
+
+}
+
+.img-2 {
+    background: url(img2.jpg)
+    no-repeat center center;
+}
+.img-3 {
+    background: url(img3.jpg)
+    no-repeat center center;
+}
+
+.img-4 {
+  background: url(img4.jpg)
+  no-repeat center center;
+}
+.img-5 {
+    background: url(img5.jpg)
+    no-repeat center center;
+}
+.img-6 {
+    background: url(img6.jpg)
+    no-repeat center center;
+}
+.img-7 {
+  background: url(img7.jpg)
+  no-repeat center center;
+}
+
+
+.img-8 {
+    background: url(img8.jpg)
+    no-repeat center center;
+}
+.img-9 {
+    background: url(img9.jpg)
+    no-repeat center center;
+}
+.img-10 {
+  background: url(img10.jpg)
+  no-repeat center center;
+}
+.img-11 {
+    background: url(img11.jpg)
+    no-repeat center center;
+}
+.img-12 {
+    background: url(img12.jpg)
+    no-repeat center center;
+}
+
+.img-13 {
+  background: url(img13.jpg)
+  no-repeat center center;
+}
+.img-14 {
+    background: url(img14.jpg)
+    no-repeat center center;
+}
+.img-15 {
+    background: url(img15.jpg)
+    no-repeat center center;
+}
+.img-16 {
+    background: url(img16.jpg)
+    no-repeat center center;
+}
+.img-17 {
+    background: url(img17.jpg)
+    no-repeat center center;
+}
+.img-18 {
+  background: url(img18.jpg)
+  no-repeat center center;
+}
+.img-19 {
+    background: url(img19.jpg)
+    no-repeat center center;
+}
+.img-20 {
+    background: url(img20.jpg)
+    no-repeat center center;
+}
+.img-21 {
+    background: url(img21.jpg)
+    no-repeat center center;
+}
+.img-22 {
+    background: url(img22.jpg)
+    no-repeat center center;
+}
+.img-23 {
+    background: url(img23.jpg)
+    no-repeat center center;
+}
+.img-24 {
+    background: url(img24.jpg)
+    no-repeat center center;
+}
+
+
+.recipe-text {
+  color: white;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  display: none;
+  overflow: scroll;
 }

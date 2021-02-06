@@ -80,5 +80,15 @@ $("document").ready(function() {
         $(".colum-6-beforehover").removeClass("colum-afterhover");
     });
 
+    $(".name").hover(function() {
+        console.log("working!");
+        $(this).find(".recipe-text").toggle();
+        $(this).find(".bg-img").toggle();
+    });
+
+    $(".name").hover(function() {
+      $(this).find("h1").toggle();
+
+    });
 
 });
