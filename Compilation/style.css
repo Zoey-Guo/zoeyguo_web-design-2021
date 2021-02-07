@@ -13,11 +13,12 @@ a {
   font-size:60px;
   padding-left: 20px;
   text-decoration: none;
-  color: black;
+  color: white;
+
 }
 
 a:hover {
-  color: white;
+  color: Olive;
 }
 
 h1 {
@@ -38,117 +39,103 @@ h1 {
 
 }
 
+.flex:hover {
+    font-size: 80px;
+}
+
 
 .container-1 {
   flex: 1;
 }
 
 .container-2 {
-  background-color: #ffc8b3;
+  background-color: gray;
   flex: 1;
   display: flex;
   flex-direction: row;
   display: none;
 }
 
-.items {
-  flex:1;
 
-}
-
-.items:hover {
-  background-color: whitesmoke;
-}
 
 .class1 {
-  background-color: Lavender;
-
+  background-color: Teal;
+  background-color: OliveDrab;
+color: white;
 }
 
 .class2 {
-  background-color: LightCyan;
+  background-color: Maroon;
+  color: white;
 }
 
 .class3 {
-  background-color: #eda891;
+  background-color: OrangeRed;
   color: white;
 }
 
 .class4 {
-  background-color: LemonChiffon;
+  background-color: MidnightBlue;
   color: white;
 }
 
 .class5 {
-  background-color: LightSteelBlue;
+  background-color: OliveDrab;
+  background-color: Teal;
   color: white;
 }
 
 .class6 {
-  background-color: LightSalmon;
+  background-color: DarkViolet;
   color: white;
 }
 
 .class7 {
-  background-color: LightGreen;
+  background-color: DarkGreen;
   color: white;
 }
 
 .class8 {
-  background-color: MistyRose;
+  background-color: Indigo;
   color: white;
-}
-
-
-.class1:hover {
-  color: Crimson;
-  background-color: #ffff99;
-}
-
-.class2:hover {
-  color: Tomato;
-  background-color: lightgray;
-}
-
-.class3:hover {
-  color: Magenta;
-  background-color: Thistle;
-}
-
-.class4:hover {
-  color: Lime;
-  background-color: PaleTurquoise;
-}
-
-.class5:hover {
-  color: Crimson;
-  background-color: HoneyDew;
-}
-
-.class6:hover {
-  color: Tomato;
-  background-color: LightCoral;
-}
-
-.class7:hover {
-  color: Magenta;
-  background-color: Thistle;
-}
-
-.class8:hover {
-  color: Lime;
-  background-color: PaleTurquoise;
 }
 
 .flex:hover {
-  color: white;
-  background-color: gray;
+  color: black;
+  background-color: black;
 }
 
 .toggle {
   display: flex;
   flex-direction: row;
 }
+
+.items {
+  flex:1;
+  background-color: black;
+}
+
+
+.items:hover {
+  background-color: Olive;
+  color: black;
+}
+
+#item-text1:hover {
+  color: black;
+
+}
+
+#item-text2:hover {
+  color: black;
+
+}
+
+#item-text3:hover {
+  color: black;
+
+}
+
 
 .spin {
     width: 250px;
@@ -157,8 +144,7 @@ h1 {
     right: 30px;
     top: 30px;
     border-radius: 50%;
-    background-color: black;
-    border: 1px solid black;
+    background: white;
     display: block;
     z-index: 10 !important;
 }
@@ -169,7 +155,7 @@ h1 {
     width: 100%;
     text-align: center;
     line-height: 24spx;
-    color: white;
+    color: black;
     top: 35% !important;
     -webkit-animation: rotate 10s linear infinite;
     animation: rotate 10s linear infinite;
@@ -182,8 +168,7 @@ h1 {
       right: 30px;
       top: 350px;
       border-radius: 50%;
-      background: black;
-      border: 1px solid black;
+      background: white;
       display: block;
       z-index: 10 !important;
   }
@@ -194,7 +179,7 @@ h1 {
       width: 100%;
       text-align: center;
       line-height: 28spx;
-      color: white;
+      color: black;
       top: 45% !important;
       -webkit-animation: rotate2 10s linear infinite;
       animation: rotate2 10s linear infinite;
@@ -207,8 +192,8 @@ h1 {
         right: 30px;
         bottom: 30px;
         border-radius: 50%;
-        background: black;
-        border: 1px solid black;
+        background: white;
+
         display: block;
         z-index: 10 !important;
     }
@@ -219,7 +204,7 @@ h1 {
         width: 100%;
         text-align: center;
         line-height: 28spx;
-        color: white;
+        color: black;
         top: 30% !important;
         -webkit-animation: rotate3 10s linear infinite;
         animation: rotate3 10s linear infinite;
