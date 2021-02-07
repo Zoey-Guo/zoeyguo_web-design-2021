@@ -90,5 +90,12 @@ $("document").ready(function() {
       $(this).find("h1").toggle();
 
     });
+//last//
+    $(".name-last").mouseenter(function() {
+      $(".name-last").css("background-color","blue");
+    });
+    $(".name-last").mouseleave(function() {
+      $(".name-last").css("background-color","black");
+    });
 
 });

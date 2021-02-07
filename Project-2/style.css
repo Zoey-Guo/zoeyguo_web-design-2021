@@ -4,9 +4,13 @@
     padding: 0;
 
 }
+body {
+
+}
 
 div {
   background-color: black;
+    background: linear-gradient(180deg, #000000 7.28%, rgba(255, 255, 255, 0) 82.28%), #000000;
   border: 1px solid white;
   color: white;
 
@@ -16,15 +20,14 @@ div {
 
 p {
   color: white;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-family: 'Mulish', sans-serif;
   font-family: 'Darker Grotesque', sans-serif;
-  /*font-family: 'Jost', sans-serif;*/
-
-
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
 
 }
+
+
 #big-container {
     width: 100vw;
     height: 100vh;
@@ -62,6 +65,7 @@ p {
   border: 0;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
+  border-right: 1px solid white;
 
 }
 
@@ -70,7 +74,7 @@ p {
   display: flex;
   flex-direction: column;
   border: 0;
-  border-left: 1px solid white;
+
   border-top: 1px solid white;
 
 }
@@ -101,6 +105,7 @@ p {
   flex:1;
   border: 0;
   border-right:1px solid white;
+
 }
 
 .item-2-2 {
@@ -111,60 +116,74 @@ p {
 .item-3-2 {
   flex:1;
   border: 0;
-  border-right:1px solid white;
-  border-top:1px solid white;
+  border-top: 1px solid white;
+border-right:1px solid white;
 
+}
+
+.item-3-3 {
+  flex:1;
+    border-left:1px solid white;
+
+}
+
+.item-3-4 {
+  flex:1;
+  border: 0;
+  border-top:1px solid white;
+  border-left:1px solid white;
 }
 
 .item-3-1 {
   flex:4;
+  border-left: 1px solid white;
 }
 
 #intro {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 26px;
 
 }
 
 #cookvideo {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 #cupcake {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 
 #recipe {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 26px;
 
 }
 
 #foodimg {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 #human {
   border: 0;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 26px;
 
 
 }
 
 #cookbook {
   border: 0;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 #imgdata {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 26px;
   border: 0;
   border-top:1px solid white;
 
@@ -172,8 +191,8 @@ p {
 }
 
 #textdata {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 26px;
   border: 0;
   border-top:1px solid white;
   border-left:1px solid white;
@@ -186,20 +205,63 @@ p {
 
 }
 
-#marqueeTop {
+#marqueeTopBOX {
   font-size: 60px;
-
-
+  border-bottom: 1px solid white;
+  overflow: hidden;
+  display: inline-block;
 }
+
+
 
 #marqueeBottom {
   border: 0;
   border-right:1px solid white;
   border-top:1px solid white;
   font-size: 60px;
+  overflow: hidden;
+}
 
+#marqueeBottomTEXT {
+
+  font-size: 60px;
+  border: 0;
+  display: inline-block;
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+a {
+  color: white;
+  font-family: 'Darker Grotesque', sans-serif;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 30px;
+  padding-left: 10px;
 
 }
+
+a:hover {
+  color: yellow;
+   font-family: 'Baskervville', serif;
+   font-style: italic;
+   font-size: 20px;
+
+}
+
+.item {
+  padding-left:
+}
+
+
 
 /*.nothing {
   background-image: url(x.svg);

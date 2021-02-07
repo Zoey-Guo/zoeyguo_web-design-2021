@@ -14,35 +14,55 @@ h1 {
   color: white;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 20px;
-  line-height: 22px;
-  margin-top: 10px;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 5px;
   font-family: 'Darker Grotesque', sans-serif;
 
 }
 
 h2 {
   font-family: 'Darker Grotesque', sans-serif;
-  font-size: 40px;
-  line-height: 36px;
+  /*font-family: 'Baskervville', serif;*/
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
   margin-top: 10px;
 }
 
 h3 {
   font-family: 'Darker Grotesque', sans-serif;
-  font-size: 30px;
+/*font-family: 'Baskervville', serif;*/
+font-size: 32px;
+font-weight: 500;
+line-height: 48px;
+  margin-top: 10px;
+margin-bottom: -20px;
 }
 
 h4 {
+  /*font-family: 'Baskervville', serif;
+  font-style: italic;*/
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 500;
+
   font-size: 24px;
+  margin-top: 10px;
+
 }
 
 p {
-
+ font-size: 20px;
+ line-height: 20px;
 }
 ul {
   list-style-position: inside;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 20px;
 }
+
+
 
 
 
@@ -70,6 +90,14 @@ ul {
   border-right: 1px solid white;
   overflow: hidden;
   /*position: relative;*/
+}
+
+.name-last {
+  flex:1;
+  overflow: hidden;
+  border-right: 1px solid white;
+  background: linear-gradient(180deg, #000000 7.28%, rgba(255, 255, 255, 0) 82.28%), #000000;
+color: white;
 }
 
 .name:hover {
@@ -215,4 +243,33 @@ ul {
   padding-right: 3vw;
   display: none;
   overflow: scroll;
+}
+
+
+a {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 24px;
+  line-height: 26px;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+   font-family: 'Baskervville', serif;
+   font-size: 20px;
+   font-style: italic;
+}
+
+#back {
+   padding-top: 5px;
+
+
+}
+
+#back:hover {
+  color: blue;
 }
