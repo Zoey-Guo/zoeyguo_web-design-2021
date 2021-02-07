@@ -4,14 +4,26 @@
     box-sizing: border-box;
 }
 
+body {
+  font-family: 'Hind', sans-serif;
+  font-family: 'Arimo', sans-serif;
+}
+
+a {
+  font-size:60px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
 h1 {
   font-size: 60px;
   padding-left: 20px;
-}
-
-p {
-  font-size: 30px;
-  padding-left: 20px;
+  text-decoration: none;
 }
 
 .big-container {
@@ -26,54 +38,71 @@ p {
 
 }
 
-.toggle-1 {
-    background-color: Crimson;
-    color: white;
-    height: 10%;
 
+.container-1 {
+  flex: 1;
+}
 
+.container-2 {
+  background-color: #ffc8b3;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  display: none;
+}
+
+.items {
+  flex:1;
 
 }
 
-.toggle-2 {
-    background-color: Tomato;
-    color: white;
-
-}
-
-.toggle-3 {
-    background-color: Magenta;
-    color: black;
-
-}
-
-.toggle-4 {
-    background-color: Lime;
-    color: black;
-
-}
-
-.class1 {
+.items:hover {
   background-color: whitesmoke;
 }
 
+.class1 {
+  background-color: Lavender;
+
+}
+
 .class2 {
-  background-color: lightgray;
+  background-color: LightCyan;
 }
 
 .class3 {
-  background-color: gray;
+  background-color: #eda891;
   color: white;
 }
 
 .class4 {
-  background-color: black;
+  background-color: LemonChiffon;
   color: white;
 }
 
+.class5 {
+  background-color: LightSteelBlue;
+  color: white;
+}
+
+.class6 {
+  background-color: LightSalmon;
+  color: white;
+}
+
+.class7 {
+  background-color: LightGreen;
+  color: white;
+}
+
+.class8 {
+  background-color: MistyRose;
+  color: white;
+}
+
+
 .class1:hover {
   color: Crimson;
-  background-color: whitesmoke;
+  background-color: #ffff99;
 }
 
 .class2:hover {
@@ -83,32 +112,147 @@ p {
 
 .class3:hover {
   color: Magenta;
-  background-color: gray;
+  background-color: Thistle;
 }
 
 .class4:hover {
   color: Lime;
-  background-color: black;
+  background-color: PaleTurquoise;
 }
 
-/*iphone size*/
-@media screen and (max-width: 506px) {
-  .toggle-1 {
-      display: none;
-
-  }
-
-  .toggle-2 {
-    display: none;
-  }
-
-  .toggle-3 {
-    display: none;
-  }
-
-  .toggle-4 {
-    display: none;
-  }
-
-
+.class5:hover {
+  color: Crimson;
+  background-color: HoneyDew;
 }
+
+.class6:hover {
+  color: Tomato;
+  background-color: LightCoral;
+}
+
+.class7:hover {
+  color: Magenta;
+  background-color: Thistle;
+}
+
+.class8:hover {
+  color: Lime;
+  background-color: PaleTurquoise;
+}
+
+.flex:hover {
+  color: white;
+  background-color: gray;
+}
+
+.toggle {
+  display: flex;
+  flex-direction: row;
+}
+
+.spin {
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid black;
+    display: block;
+    z-index: 10 !important;
+}
+
+.spin-text {
+    position: absolute;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    line-height: 24spx;
+    color: white;
+    top: 35% !important;
+    -webkit-animation: rotate 10s linear infinite;
+    animation: rotate 10s linear infinite;
+  }
+
+  .spin-2 {
+      width: 250px;
+      height: 250px;
+      position: fixed;
+      right: 30px;
+      top: 350px;
+      border-radius: 50%;
+      background: black;
+      border: 1px solid black;
+      display: block;
+      z-index: 10 !important;
+  }
+
+  .spin-text-2 {
+      position: absolute;
+      font-size: 22px;
+      width: 100%;
+      text-align: center;
+      line-height: 28spx;
+      color: white;
+      top: 45% !important;
+      -webkit-animation: rotate2 10s linear infinite;
+      animation: rotate2 10s linear infinite;
+    }
+
+.spin-3 {
+        width: 250px;
+        height: 250px;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        border-radius: 50%;
+        background: black;
+        border: 1px solid black;
+        display: block;
+        z-index: 10 !important;
+    }
+
+.spin-text-3 {
+        position: absolute;
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+        line-height: 28spx;
+        color: white;
+        top: 30% !important;
+        -webkit-animation: rotate3 10s linear infinite;
+        animation: rotate3 10s linear infinite;
+      }
+
+@keyframes rotate {
+    0% {
+    -webkit-transform: rotate(0deg);
+    animation: rotate(0deg);
+}
+    100% {
+    -webkit-transform: rotate(360deg);
+    animation: rotate(360deg);
+    }
+  }
+
+@keyframes rotate2 {
+      0% {
+      -webkit-transform: rotate(0deg);
+      animation: rotate(0deg);
+  }
+      100% {
+      -webkit-transform: rotate(-360deg);
+      animation: rotate(-360deg);
+      }
+    }
+@keyframes rotate3 {
+        0% {
+        -webkit-transform: rotate(0deg);
+        animation: rotate(0deg);
+    }
+        100% {
+        -webkit-transform: rotate(360deg);
+        animation: rotate(360deg);
+        }
+      }
