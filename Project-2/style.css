@@ -19,7 +19,7 @@ div {
 /* At first, I give 'p' font-size:22px and try to change the marquee a larger font size in its individual div, but it's not working. It's just keep the same size of 22px. SO I have to break it into every id. I guess, probably, becasue there are too many parent divs.*/
 
 p {
-  color: white;
+
   font-family: 'Darker Grotesque', sans-serif;
   font-weight: 500;
   margin-left: 10px;
@@ -218,7 +218,7 @@ border-right:1px solid white;
   border: 0;
   border-right:1px solid white;
   border-top:1px solid white;
-  font-size: 60px;
+  font-size: 62px;
   overflow: hidden;
 }
 
@@ -241,19 +241,18 @@ border-right:1px solid white;
 
 a {
   color: white;
-  font-family: 'Darker Grotesque', sans-serif;
+
   text-decoration: none;
   font-size: 24px;
   line-height: 30px;
-  padding-left: 10px;
 
 }
 
 a:hover {
-  color: yellow;
+   color: yellow;
    font-family: 'Baskervville', serif;
    font-style: italic;
-   font-size: 20px;
+
 
 }
 
