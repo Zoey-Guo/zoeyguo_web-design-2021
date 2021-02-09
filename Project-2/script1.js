@@ -90,7 +90,21 @@ $("document").ready(function() {
       $(this).find("h1").toggle();
 
     });
-//last//
+
+
+    $(".name").mouseenter(function() {
+      $(this).removeClass("img-beforehover");
+    });
+    $(".name").mouseleave(function() {
+      $(this).addClass("img-beforehover");
+    });
+
+
+
+
+
+
+//last item//
     $(".name-last").mouseenter(function() {
       $(".name-last").css("background-color","blue");
     });

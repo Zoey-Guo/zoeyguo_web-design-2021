@@ -26,7 +26,7 @@ h2 {
   /*font-family: 'Baskervville', serif;*/
   font-size: 48px;
   font-weight: 500;
-  line-height: 48px;
+  line-height: 45px;
   margin-top: 10px;
 }
 
@@ -89,6 +89,7 @@ ul {
   flex: 1;
   border-right: 1px solid white;
   overflow: hidden;
+  padding-bottom: 20px;
   /*position: relative;*/
 }
 
@@ -122,7 +123,7 @@ color: white;
 
 /* backgroud img*/
 
-.bg-img {
+/*.bg-img {
   background-size: cover;
   width: 100%;
   height:100%;
@@ -131,15 +132,18 @@ color: white;
   top: 0;
   z-index: -1;
   display: none;
-}
-.img-1 {
+}*/
+
+
+
+
+
+.img-1{
   background: url(img1.jpg)
-  no-repeat center center;
-  /*background-repeat: repeat-y;*/
-
+no-repeat center center;
 }
 
-.img-2 {
+.img-2{
     background: url(img2.jpg)
     no-repeat center center;
 }
@@ -148,25 +152,25 @@ color: white;
     no-repeat center center;
 }
 
-.img-4 {
+.img-4{
   background: url(img4.jpg)
   no-repeat center center;
 }
-.img-5 {
+.img-5{
     background: url(img5.jpg)
     no-repeat center center;
 }
-.img-6 {
+.img-6{
     background: url(img6.jpg)
     no-repeat center center;
 }
-.img-7 {
+.img-7{
   background: url(img7.jpg)
   no-repeat center center;
 }
 
 
-.img-8 {
+.img-8{
     background: url(img8.jpg)
     no-repeat center center;
 }
@@ -231,9 +235,9 @@ color: white;
     background: url(img23.jpg)
     no-repeat center center;
 }
-.img-24 {
-    background: url(img24.jpg)
-    no-repeat center center;
+
+.img-beforehover {
+  background: black;
 }
 
 
