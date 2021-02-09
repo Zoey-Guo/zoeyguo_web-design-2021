@@ -206,10 +206,11 @@ border-right:1px solid white;
 }
 
 #marqueeTopBOX {
-  font-size: 60px;
+  font-size: 55px;
   border-bottom: 1px solid white;
   overflow: hidden;
   display: inline-block;
+  padding-top: -10px;
 }
 
 
@@ -224,9 +225,9 @@ border-right:1px solid white;
 
 #marqueeBottomTEXT {
 
-  font-size: 60px;
+  font-size: 55px;
   border: 0;
-  display: inline-block;
+  overflow: hidden;
   animation: animate 10s linear infinite;
 }
 
@@ -256,9 +257,6 @@ a:hover {
 
 }
 
-.item {
-  padding-left:
-}
 
 
 
