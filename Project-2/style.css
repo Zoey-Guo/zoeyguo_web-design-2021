@@ -236,8 +236,8 @@ border-right:1px solid white;
 }
 
 #marqueeBottomTEXT {
-
-  font-size: 65px;
+padding-top: -10px;
+  font-size: 62px;
   border: 0;
   overflow: hidden;
   animation: animate 10s linear infinite;
