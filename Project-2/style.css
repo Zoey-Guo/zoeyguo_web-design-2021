@@ -104,13 +104,15 @@ p {
 .item-2-1 {
   flex:1;
   border: 0;
-  border-right:1px solid white;
+  overflow: hidden;
+
 
 }
 
 .item-2-2 {
   flex:3;
   border: 0;
+  border-left:1px solid white;
 }
 
 .item-3-2 {
