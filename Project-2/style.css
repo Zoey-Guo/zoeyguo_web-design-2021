@@ -144,36 +144,42 @@ border-right:1px solid white;
 
 #intro {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 22px;
+  padding-top: 5px;
 
 }
 
 #cookvideo {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 22px;
+  padding-top: 5px;
 }
 
 #cupcake {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 22px;
+  padding-top: 5px;
 }
 
 
 #recipe {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 22px;
+  padding-top: 5px;
 
 }
 
 #foodimg {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 22px;
+  padding-top: 5px;
 }
 
 #human {
   border: 0;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 22px;
+  padding-top: 5px;
 
 
 }
@@ -181,24 +187,27 @@ border-right:1px solid white;
 #cookbook {
   border: 0;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 22px;
+  padding-top: 5px;
 }
 
 #imgdata {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 22px;
   border: 0;
   border-top:1px solid white;
+  padding-top: 5px;
 
 
 }
 
 #textdata {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 22px;
   border: 0;
   border-top:1px solid white;
   border-left:1px solid white;
+  padding-top: 5px;
 
 }
 
@@ -222,13 +231,13 @@ border-right:1px solid white;
   border: 0;
   border-right:1px solid white;
   border-top:1px solid white;
-  font-size: 62px;
+  font-size: 65px;
   overflow: hidden;
 }
 
 #marqueeBottomTEXT {
 
-  font-size: 55px;
+  font-size: 65px;
   border: 0;
   overflow: hidden;
   animation: animate 10s linear infinite;
