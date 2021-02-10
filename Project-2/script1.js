@@ -112,4 +112,8 @@ $("document").ready(function() {
       $(".name-last").css("background-color","black");
     });
 
+
+//moble//
+
+
 });
